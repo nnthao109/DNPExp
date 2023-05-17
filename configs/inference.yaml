@@ -1,0 +1,5 @@
+config_file : './tutorial_exps/config.py'
+checkpoint_file : "./tutorial_exps/epoch_10.pth"
+device : "cpu"
+video : "data/kinetics400_tiny/train/27_CSXByd3s.mp4"
+label : "data/kinetics400_tiny/label.txt"

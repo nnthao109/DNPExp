@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+  - data: recog.yaml
+  - model: recog.yaml
+train_batch_size : 8
+val_batch_size : 8
+val_num_workers : 2
+train_num_workers : 2
+test_num_workers : 2
+max_epochs : 10
+work_dir : './tutorial_exps'
+config_file : './mmaction2/configs/recognition/tsn/tsn_imagenet-pretrained-r50_8xb32-1x1x3-100e_kinetics400-rgb.py'
